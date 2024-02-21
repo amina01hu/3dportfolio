@@ -1,6 +1,14 @@
-# React + Vite
+# 3D Portfolio Site 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website!
+
+This site is built using 3D objects for an interactive user design. It showcases all my current work experience and all the projects that I have worked on so far. 
+
+Technologies used:
+- React
+- Vite
+- Three JS
+- Tailwind JS
 
 Currently, two official plugins are available:
 
