@@ -13,7 +13,7 @@ const Bird = () => {
       actions['Take 001'].play();
     }, []);
 
-    useFrame(({clock, camera }) => {
+    useFrame(({ clock, camera }) => {
       //update the Y position to simulate bird like motion using sine wave
       birdRef.current.position.y = Math.sin(clock.elapsedTime) * 0.2 + 2;
       
