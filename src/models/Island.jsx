@@ -56,23 +56,15 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props}) => {
   }
 
   const handleKeyDown = (e) => {
-    console.log(e.key);
-    switch(e.key){
-      case 'ArrowLeft':
-        if(!isRotating){
-          setIsRotating(true);
+    if(e.key === 'ArrowLeft'){
+        if(!isRotating) setIsRotating(true);
           islandRef.current.rotation.y += 0.01 * Math.PI;
-        }
-        break;
-      case 'ArrowRight':
-        if(!isRotating){
-          setIsRotating(true);
+          rotationSpeed.current = 0.0125;
+        }else if(e.key === 'ArrowRight'){
+        if(!isRotating) setIsRotating(true);
           islandRef.current.rotation.y -= 0.01 * Math.PI;
+          rotationSpeed.current = -0.0125;
         }
-        break;
-      default:
-        break; 
-    }
   }
 
   const handleKeyUp = (e) => {
