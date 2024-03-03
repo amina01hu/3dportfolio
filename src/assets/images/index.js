@@ -4,6 +4,9 @@ import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import logo from './logo.svg'
+import rop from './rop.jpeg'
+import seneca from './seneca.png'
+import yoururls from './urlss.png'
 
 export {
     hero,
@@ -11,5 +14,8 @@ export {
     shopify,
     starbucks,
     tesla,
-    logo
+    logo,
+    rop,
+    seneca,
+    yoururls
 }

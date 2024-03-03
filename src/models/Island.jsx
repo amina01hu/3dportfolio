@@ -22,6 +22,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props}) => {
   const dampingFactor= 0.95; //how fast the island rotates
 
   const handlePointerDown = (e) => {
+    console.log(e);
     e.stopPropagation();
     e.preventDefault();
     setIsRotating(true);
@@ -49,9 +50,9 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props}) => {
       : e.clientX;
 
       const delta = (clientX - lastX.current) / viewport.width;
-      islandRef.current.rotation.y += delta * 0.01 * Math.PI;
+      islandRef.current.rotation.y += delta * 0.02 * Math.PI;
       lastX.current = clientX;
-      rotationSpeed.current = delta * 0.01 * Math.PI;
+      rotationSpeed.current = delta * 0.02 * Math.PI;
     }
   }
 
@@ -65,6 +66,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props}) => {
           islandRef.current.rotation.y -= 0.01 * Math.PI;
           rotationSpeed.current = -0.0125;
         }
+        console.log(islandRef.current.rotation.y);
   }
 
   const handleKeyUp = (e) => {

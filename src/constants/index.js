@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { yoururls, seneca, rop } from "../assets/images";
 import {
     car,
     contact,
@@ -11,14 +11,11 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
     pricewise,
     react,
     redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
@@ -63,16 +60,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
         imageUrl: nextjs,
         name: "Next.js",
         type: "Frontend",
@@ -93,11 +80,6 @@ export const skills = [
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -111,55 +93,41 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Applications Developer Internship",
+        company_name: "Region of Peel",
+        icon: rop,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "May 2023 - Current",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Led the development and implementation of 20+ customized sofware applications for water and wastewater management, showcasing dynamic problem-solving and improving operational adaptability.",
+            "Proactively executed routine maintenance, updates, and bug fixes, ensuring peak performance and enhancing user satisfaction, emphasizing a steadfast commitment to continuous improvement.",
+            "Enhanced applications using Microsoft Power tools: SharePoint, Power Apps, Power Automate, and Power BI, contributing to streamlined workflows and improved data-driven decision-making.",
+            "Utilized CMMS programs such as Hansen and IMT reports to produce comprehensive technical summaries for internal staff to enhance overall operational effectiveness.",
+            "Collaborated closely with operators to support and enhance the digital work order process, demonstrating a keen understanding of the operational workflow for water and wastewater."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Back End Developer",
+        company_name: "Seneca Polytechnic - Applied Research",
+        icon: seneca,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "February 2023 - April 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Responsible for coding, programming, quality assurance of applications for business clients, ensuring the delivery of cutting-edge applications.",
+            "Collaborated seamlessly with the design team, contributing to the creation of compelling wireframes and prototypes.",
+            "Coordinated contractor and client appointments in collaboration with internal staff through telephone, demonstrating effective scheduling and communication skills.",
+            "Conducted unit testing and debugging to ensure high-quality outputs."
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Front End Developer",
+        company_name: "YourUrls",
+        icon: yoururls,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "June 2022 - August 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Supported scrum master with team communication and overlooked the sprint reviews",
+            "Developed and designed the front end of websites for small business and large corporations."
         ],
     },
 ];
@@ -173,12 +141,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/amina01hu',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/ahussein0111/',
     }
 ];
 
@@ -186,43 +154,29 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Simple Calculator App',
+        description: 'Developed a calculator app for Android using java.',
+        link: 'https://github.com/amina01hu/simplecalculatorapp',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Happy Hippo App',
+        description: 'Created an fullstack website in which you can create an account',
+        link: 'https://github.com/amina01hu/happyhippo-app',
     },
     {
         iconUrl: snapgram,
+        theme: 'btn-back-blue',
+        name: 'Fragments Application',
+        description: 'Fullstack website where you can store images and convert them by creating an account',
+        link: 'https://github.com/amina01hu/fragments',
+    },
+    {
+        iconUrl: car,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'My Custom Map',
+        description: 'Fullstack about me page that showcases a map of all my frequented locations.',
+        link: 'hhttps://github.com/amina01hu/my-custom-map',
     }
 ];
